@@ -1,2 +1,7 @@
-# interesting_football
-Determining whether a football match is interesting
+# Introduction
+
+The goal of this project is to predict the total number of goals in football matches and whether the matches are interesting to watch. As a goal of this project, I attempted to predict number of goals in matches and classify whether the matches are interesting.
+
+In attempting to solve this goal prediction problem, I used Linear Regression as well as Polynomial Regression on the training data set, with and without the use of Principle Components Analysis. On the other hand, regarding the classification problem, I applied K Nearest Neighbours as well as Logistic Regression. At the end, the best regression model to predict the total number of goals is Linear Regression. Polynomial Regression degree 2 model follows suit with slightly worse MSE measure on the test data even though it fits better compared to Linear Regression on the training data. The best classification model to predict whether the match is interesting is Logistic Regression slightly better than KNN.
+
+At the moment the report was written, the predictions are not very accurate yet and leave rooms for improvement, due to the number of features are still quite limited. It remains that football matches are affected by countless factors as well as a high degree of randomness, which makes it impossible to achieve perfect prediction accuracy in my opinion. However, I believe that given more data sources, it is certainly possible to further increase the performance of the model.
